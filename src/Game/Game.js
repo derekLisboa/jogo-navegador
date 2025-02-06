@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../Game/Game.css'
 
+
 function Game({ players, setPlayers }) {
   const [currentPlayerIndex, setCurrentPlayerIndex] = useState(0);
   const [letter, setLetter] = useState('');
